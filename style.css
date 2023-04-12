@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('imagens/5445590.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    margin: 0 10%;
+    background-color: #0703215d;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding: 0 5px;
+}
+
+.navbar-home{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.navbar-home li a {
+    text-decoration-line: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar-home li a:hover {
+    color: coral;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* SECTION */
+
+.container-home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.form h1 {
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.form p {
+    font-weight: 700;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 25px;
+}
+
+.butt-sobre {
+    background-color: rgb(252, 99, 72);
+    font-size: 20px;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(252, 99, 72);
+    cursor: pointer;
+}
+
+.butt-sobre:hover {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: rgb(252, 99, 72);
+    transition: 0.3s;
+}
+
+.butt-login {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px 30px;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(252, 99, 72);
+    cursor: pointer;
+}
+
+.butt-login:hover {
+    transition: 0.3s;
+    background-color: rgb(252, 99, 72);
+    border-color: rgb(252, 99, 72);
+}
+
+.box-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
