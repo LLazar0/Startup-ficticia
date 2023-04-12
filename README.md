@@ -1,4 +1,5 @@
 # Startup-ficticia
 Site criado para um trabalho do meu curso feito em HTML e CSS.
 
-link: https://llazar0.github.io/Startup-ficticia/
+<a href="https://llazar0.github.io/Startup-ficticia/" target="_blanck">Visualizar Site</a>
+
